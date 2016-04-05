@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+}
+
+.modal {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.modal__content {
+  position: absolute;
+  padding: 10%;
+  width: 80%;
+}
+
+.modal__content-body {
+  background: red;
+}
